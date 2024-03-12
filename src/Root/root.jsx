@@ -37,7 +37,7 @@ const Root = () => {
 
             {/*  Set & Go  */}
             {
-                oldUser && !guideVisible &&
+                // oldUser && !guideVisible &&
                 <div className={"Sets"} style={{
                     width: '70vw',
                     height: '70wh',
@@ -48,19 +48,36 @@ const Root = () => {
                 }}>
                     <p>
                         <p>Ultimates</p>
-                        <div style={{
-                            width: '100px',
-                            height: '100px',
-                            display: 'flex',
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            border: '1px solid brown'
-                        }}>+
+
+                        <div className={'select'}>
+                            <div>
+                                <input type="text" placeholder={'enter or scroll'}/>
+                                <ul>
+                                    <li>Black hole</li>
+                                    <li>Chronosphere</li>
+                                    <li>Doom</li>
+                                    <li>Primal split</li>
+                                    <li>Ravage</li>
+                                </ul>
+                            </div>
+                            <div className={'plate'}>
+                                <div>plate icon</div>
+                                {/*<ul>*/}
+                                {/*    <li>icon</li>*/}
+                                {/*    <li>icon</li>*/}
+                                {/*    <li>icon</li>*/}
+                                {/*    <li>icon</li>*/}
+                                {/*    <li>icon</li>*/}
+                                {/*    <li>icon</li>*/}
+                                {/*</ul>*/}
+                            </div>
                         </div>
                     </p>
                     <p>
-                        <input type={'checkbox'}/>
-                        <span>Power Runes</span>
+                        <label>
+                            <input className={'checkbox'} type={'checkbox'}/>
+                            <span>Power Runes</span>
+                        </label>
                     </p>
                     <p>
                         <input type={'checkbox'}/>
@@ -76,7 +93,7 @@ const Root = () => {
                     </p>
                     <p>
                         <center>
-                            <button>Start game</button>
+                            <button className={'button'}>Start timer</button>
                         </center>
                     </p>
                 </div>
