@@ -1,12 +1,11 @@
 import './App.css';
-import Root from "./Root/root";
+import * as React from 'react';
+import Configuration from './components/Configuration/Configuration';
 
 function App() {
-  return (
-    <div className="App">
-      <Root />
+    return <div className={'Root'}>
+        <Configuration />
     </div>
-  );
 }
 
 export default App;

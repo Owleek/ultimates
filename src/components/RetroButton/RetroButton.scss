@@ -1,0 +1,22 @@
+.RetroButtonWrapper {
+
+}
+
+.RetroButton {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.RetroButton__cell {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #36395A;
+  display: block;
+}
