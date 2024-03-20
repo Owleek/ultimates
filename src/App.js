@@ -1,10 +1,10 @@
 import './App.css';
 import * as React from 'react';
-import Configuration from './components/Configuration/Configuration';
+import Acquaintance from "./components/Acquaintance/Acquaintance";
 
 function App() {
     return <div className={'Root'}>
-        <Configuration />
+        <Acquaintance />
     </div>
 }
 
