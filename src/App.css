@@ -47,6 +47,33 @@ table {
 }
 
 @font-face {
+  font-family: 'Balsamiq Sans';
+  src: url('./fonts/BalsamiqSans-Bold.woff2') format('woff2'),
+  url('./fonts/BalsamiqSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Balsamiq Sans';
+  src: url('./fonts/BalsamiqSans-Regular.woff2') format('woff2'),
+  url('./fonts/BalsamiqSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('./fonts/SourceSans3-Light.woff2') format('woff2'),
+  url('./fonts/SourceSans3-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Source Sans 3';
   src: url('./fonts/SourceSans3-Light.woff2') format('woff2'),
   url('./fonts/SourceSans3-Light.woff') format('woff');
@@ -91,13 +118,10 @@ table {
   font-display: swap;
 }
 
-
-
 html, body {
   height: 100%;
   width: 100%;
-
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Balsamiq Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 1px;
