@@ -1,3 +1,18 @@
 :root {
   --message-color: #ddb95c;
 }
+
+$TopPaneHeight: 3rem;
+
+
+// TODO - move MainContainer class to App.css,
+//  move TopPane class to TopPane.scss
+//  import $TopPaneHeight variable
+
+.MainContainer {
+  height: calc(100% - $TopPaneHeight);
+}
+
+.TopPane {
+  height: $TopPaneHeight;
+}

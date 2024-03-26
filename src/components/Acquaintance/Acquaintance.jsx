@@ -1,5 +1,6 @@
 import React from 'react';
 import './Acquaintance.scss';
+import Button from "../Button/Button";
 
 interface IAcquaintance {
     props: any;
@@ -28,6 +29,7 @@ const Acquaintance: React.FC<IAcquaintance> = (props): React.JSX.Element => {
                 </div>
             </div>
         </div>
+        <Button>Skip</Button>
     </div>
 }
 

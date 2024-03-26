@@ -1,0 +1,25 @@
+.TopPane {
+  width: 100%;
+  color: white;
+}
+
+.Icon {
+  width: 1rem;
+  height: 1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LangView {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-left: auto;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.LangView__Text {
+  margin-right: 0.5rem;
+}
