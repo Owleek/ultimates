@@ -1,5 +1,6 @@
 :root {
   --message-color: #ddb95c;
+  --main-color: #36395A;
 }
 
 $TopPaneHeight: 3rem;
@@ -14,5 +15,5 @@ $TopPaneHeight: 3rem;
 }
 
 .TopPane {
-  height: $TopPaneHeight;
+  //height: $TopPaneHeight;
 }
